@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>img-expander</title>
+    <style>
+
+
+      .container1 {
+        padding: 50px;
+        background-color: blue;
+      } 
+
+      .container2 {
+        padding: 40px 20px;
+        background-color: red;
+      } 
+
+      .container3 {
+        padding: 10px 50px;
+        background-color: green;
+      } 
+
+    </style>
+  </head>
+  <body>
+
+    <select>
+      <option value="container3">green</option>
+      <option value="container2">red</option>
+      <option value="container1">blue</option>
+    </select>
+
+    <div class="container3">
+      <div class="container2">
+        <div class="container1">
+          <img class="test1" src="om.jpeg" width="200" />
+          <img class="test2" src="om.jpeg" width="200" />
+        </div>
+      </div>
+    </div>
+
+    <!-- scripts -->
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
+
