@@ -4,6 +4,18 @@
     <title>img-expander</title>
     <style>
 
+      .img-container {
+        background-color: rgba(255,255,255,0.3);
+        display: inline-block;
+      }
+
+      .img-container img {
+        vertical-align: bottom;
+      }
+
+      .container {
+        display: inline-block;
+      }
 
       .container1 {
         padding: 50px;
@@ -13,6 +25,7 @@
       .container2 {
         padding: 40px 20px;
         background-color: red;
+        position: relative;
       } 
 
       .container3 {
@@ -20,24 +33,51 @@
         background-color: green;
       } 
 
+      .container4 {
+        width: 200px;
+        height: 150px;
+        background-color: purple;
+        margin-top: 10px;
+      } 
+
+      .container5 {
+        width: 30%;
+        height: 350px;
+        background-color: yellow;
+        margin-top: 10px;
+      } 
+
+      select {
+        display: block;
+      }
+
     </style>
   </head>
   <body>
 
     <select>
+      <option value="container5">yellow</option>
+      <option value="container4">purple</option>
       <option value="container3">green</option>
       <option value="container2">red</option>
       <option value="container1">blue</option>
     </select>
 
-    <div class="container3">
-      <div class="container2">
-        <div class="container1">
-          <img class="test1" src="om.jpeg" width="200" />
-          <img class="test2" src="om.jpeg" width="200" />
+    <div class="container container3">
+      <div class="container container2">
+        <div class="container container1">
+          <div class="img-container">
+            <img class="test1" src="om.jpeg" width="200" />
+          </div>
+          <div class="img-container">
+            <img class="test2" src="om.jpeg" width="200" />
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="container container4"></div>
+    <div class="container container5"></div>
 
     <!-- scripts -->
     <script type="text/javascript" src="app.js"></script>
