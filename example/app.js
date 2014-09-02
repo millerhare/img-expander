@@ -1,4 +1,4 @@
-var ie = require("./");
+var ie = require("../");
 
 var el1 = document.querySelector(".test1");
 var el2 = document.querySelector(".test2");
