@@ -2,6 +2,8 @@
   "name": "img-expander",
   "version": "0.1.0",
   "dependencies": {
-    "lodash.debounce": "^2.4.1"
+    "lodash.debounce": "^2.4.1",
+    "prefixed-event": "^1.0.4",
+    "dom-batch-wrapper": "git+http://git@github.com/orangemug/dom-batch-wrapper.git#master"
   }
 }

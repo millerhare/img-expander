@@ -46,6 +46,8 @@ Each method also has a `read`/`write` method attached to it which you can hook u
     imgEx.toggle.read
     imgEx.toggle.write
 
+The result of the read method must be passed to the write, you can find more information in the [dom-batch-wrapper docs](https://github.com/orangemug/dom-batch-wrapper)
+
 
 ## License
 MIT
