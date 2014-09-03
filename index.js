@@ -1,6 +1,6 @@
 module.exports = {
-  expand:     require("./expand"),
-  collapse:   require("./collapse"),
-  toggle:     require("./toggle")
-  isExpanded: require("./is_expanded"),
+  expand:     require("./lib/expand"),
+  collapse:   require("./lib/collapse"),
+  toggle:     require("./lib/toggle"),
+  isExpanded: require("./lib/is_expanded"),
 };
