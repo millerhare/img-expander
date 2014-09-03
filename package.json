@@ -6,5 +6,8 @@
     "prefixed-event": "^1.0.4",
     "dom-batch-wrapper": "git+http://git@github.com/orangemug/dom-batch-wrapper.git#master",
     "style-prefixer": "git+http://git@github.com/orangemug/style-prefixer.git#master"
+  },
+  "devDependencies": {
+    "dom-delegate": "^2.0.3"
   }
 }
