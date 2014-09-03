@@ -18,7 +18,7 @@ el1.addEventListener("click", function(e) {
   ie.expand(e.target, container);
 });
 
-el1.addEventListener("expander-proxy:click", function(e) {
+el1.addEventListener("img-expander:click", function(e) {
   ie.collapse(e.detail.target);
 });
 
