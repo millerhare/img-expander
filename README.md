@@ -1,4 +1,7 @@
 # img-expander
+
+**NOTE:** Work in progress
+
 Expand an image to some other container or coords, with:
 
  * Only scale/transform (so hardware accelerated)
